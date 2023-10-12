@@ -1,5 +1,17 @@
 # @sveltejs/kit
 
+## 1.25.3
+
+### Patch Changes
+
+- feat: infer route parameter type from matcher's guard check if applicable ([#10755](https://github.com/sveltejs/kit/pull/10755))
+
+- fix: follow whatwg fetch spec for handling redirect loops ([#10857](https://github.com/sveltejs/kit/pull/10857))
+
+- fix: use `window.fetch` in `load` functions to allow libraries to patch it ([#10009](https://github.com/sveltejs/kit/pull/10009))
+
+- chore(deps): update dependency undici to ~5.26.0 ([#10860](https://github.com/sveltejs/kit/pull/10860))
+
 ## 1.25.2
 
 ### Patch Changes
